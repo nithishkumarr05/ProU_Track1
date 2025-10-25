@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardFooter } from "../ui/card";
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
@@ -12,6 +13,7 @@ function ShoppingProductTile({
   handleGetProductDetails,
   handleAddtoCart,
 }) {
+  const navigate = useNavigate();
   const [showNotification, setShowNotification] = useState(false);
   const [notificationProduct, setNotificationProduct] = useState(null);
 
@@ -27,8 +29,8 @@ function ShoppingProductTile({
   };
 
   const handleViewCart = () => {
-    // Navigate to cart page
-    window.location.href = '/shop/checkout';
+    // Navigate to cart page using React Router
+    navigate('/shop/checkout');
   };
 
   const handleAddToWishlist = (product) => {
