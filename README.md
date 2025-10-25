@@ -8,7 +8,7 @@ video : https://drive.google.com/file/d/163UaZn17DbR1An51w42Ppc2NC7y38N_s/view?u
 
 
 
-## 🛠️ Setup Steps
+## Setup Steps
 
 ### Prerequisites
 
@@ -41,7 +41,7 @@ video : https://drive.google.com/file/d/163UaZn17DbR1An51w42Ppc2NC7y38N_s/view?u
 5. **Open your browser**
    Navigate to `http://localhost:5173` - the app will automatically redirect to `http://localhost:5173/shop/home`
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend Technologies
 - **React 18** - Modern React with hooks and functional components
@@ -151,12 +151,11 @@ client/
 ### Advanced UI Components
 1. **Theme Toggle** - Dark/light mode switcher
 2. **Wishlist System** - Save and manage favorite products
-3. **Product Comparison** - Side-by-side product comparison
-4. **Interactive Demos** - Product demonstration components
-5. **Advanced Search** - Multi-field search with suggestions
-6. **Cart Notifications** - Animated popup notifications
-7. **Loading Animations** - Smooth loading states
-8. **Responsive Design** - Mobile-first approach
+3. **Interactive Demos** - Product demonstration components
+4. **Advanced Search** - Multi-field search with suggestions
+5. **Cart Notifications** - Animated popup notifications
+6. **Loading Animations** - Smooth loading states
+7. **Responsive Design** - Mobile-first approach
 
 ### Technical Enhancements
 1. **Mock Data System** - Complete frontend-only data management
@@ -220,7 +219,7 @@ products
 - This is a **frontend-only** application designed for demonstration purposes
 - All data is managed through mock data and local storage
 - The application is optimized for modern browsers
-- Responsive design works on mobile, tablet, and desktop devices
+- Responsive design works on mobile and desktop devices
 - All features are fully functional without requiring a backend server
 
 
